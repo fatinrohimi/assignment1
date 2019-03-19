@@ -16,12 +16,12 @@ public class Server
         try
         { 
             server = new ServerSocket(port); 
-            System.out.println("Serverrrr started !!!! "); 
+            System.out.println("SERVER STARTED !!!! HURRAYYYY "); 
   
-            System.out.println("kitariyo "); 
+            System.out.println("PLEASE WAIT FOR A WHILE (SMILEY) "); 
   
             socket = server.accept(); 
-            System.out.println("Yogi isso"); 
+            System.out.println("I AM HERE !!!!! YAYYYYY!!!!"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
