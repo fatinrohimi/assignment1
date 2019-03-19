@@ -43,7 +43,7 @@ public class Server
                     System.out.println(i); 
                 } 
             } 
-            System.out.println("anneyong"); 
+            System.out.println("HI"); 
   
             // close connection 
             socket.close(); 
@@ -57,6 +57,6 @@ public class Server
   
     public static void main(String args[]) 
     { 
-        Server server = new Server(5898); 
+        Server server = new Server(1998); 
     } 
 } 
